@@ -1,6 +1,6 @@
 # Awesome MCP Servers
 
-> Full Markdown catalog of 567 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
+> Full Markdown catalog of 568 hand-curated Model Context Protocol (MCP) servers. A shorter index lives at https://mcphq.org/llms.txt. The same records are published as JSON at https://mcphq.org/api/servers.json.
 
 This file lists every server in the catalog. Descriptions are the catalog's one-sentence summaries, not the upstream README. `Official: yes` means the MCP project or the named provider backs the server. Remote endpoints are included only when the catalog lists an SSE or streamable HTTP URL.
 
@@ -4510,6 +4510,18 @@ Validates and standardizes US street addresses to ZIP+4 and looks up US ZIP Code
 ## Legal and Court Data
 
 Court records, legal research, case search, and judicial workflow data.
+
+### BORME API
+
+Spain's company registry gazette (BORME) as typed events: more than 9.6 million events since 2009, with company, officer and insolvency lookups, over a hosted Streamable HTTP server with an API key or OAuth.
+
+- URL: https://github.com/bormeapi/borme-mcp
+- Language: Other
+- Provider: BORME API
+- Official: yes
+- Tags: spain, company-registry, insolvency, remote, oauth
+- Category: Legal and Court Data
+- Streamable HTTP endpoint: https://mcp.bormeapi.com/mcp
 
 ### Court Rules MCP
 

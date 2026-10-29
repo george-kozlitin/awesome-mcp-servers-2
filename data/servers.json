@@ -4908,6 +4908,25 @@
     }
   },
   {
+    "name": "BORME API",
+    "url": "https://github.com/bormeapi/borme-mcp",
+    "description": "Spain's company registry gazette (BORME) as typed events: more than 9.6 million events since 2009, with company, officer and insolvency lookups, over a hosted Streamable HTTP server with an API key or OAuth.",
+    "category": "legal-and-court-data",
+    "language": "Other",
+    "provider": "BORME API",
+    "tags": [
+      "spain",
+      "company-registry",
+      "insolvency",
+      "remote",
+      "oauth"
+    ],
+    "official": true,
+    "endpoints": {
+      "streamableHttp": "https://mcp.bormeapi.com/mcp"
+    }
+  },
+  {
     "name": "HEY Research Lab",
     "url": "https://github.com/hey-research-lab/hey-research-open",
     "description": "Read-only research on Robinhood Chain projects and tokens: whether a team is still shipping, what it shipped and what changed, each claim with its public source.",
